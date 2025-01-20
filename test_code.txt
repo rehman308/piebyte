@@ -1,0 +1,72 @@
+~Sample Code
+number x,y,z
+~set x to a*b+c++
+set x to a
+
+~set x to [a,b,c]
+~set x to [a*b,2*c,l*h]
+~set list b to [1,2,3,g*d,a*f,h*i]
+!~
+set number x to a+b/2
+number x
+
+from x till a+b/2{
+       number a
+    }
+    when x equals 12 {
+    number b
+    set x to a+b+c/12
+}
+elsewhen y <= 12 {
+    number y
+}
+else{
+    number x
+}   
+
+when x equals 12 {
+    number d
+    set g to a+b+c/12
+}
+elsewhen y <= 12 {
+    number a
+}
+else{
+    number x
+}
+
+match a+b++ {
+    for x+b/2{
+        set x to 12*g
+    }
+}
+
+until x <= 12 {
+    number x
+    from x till 10{
+    number x 
+    set x to [1,2,3]
+    from y till 120{}
+}
+}
+
+from 1 till 10{
+    number x 
+    set x to [a,b,2,1, a*b ,1*b,1*2]
+    from y till 120{}
+}
+set y to 15
+
+set z to x + y
+
+when z equals x
+{
+    number x
+}
+
+else
+{
+    set x,y,z to a
+    
+}
+!~
